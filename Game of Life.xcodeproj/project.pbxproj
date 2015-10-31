@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEC8A0A11BE564E0000C5C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8A0A01BE564E0000C5C64 /* AppDelegate.swift */; };
+		BEC8A0A31BE564E0000C5C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8A0A21BE564E0000C5C64 /* ViewController.swift */; };
+		BEC8A0A61BE564E0000C5C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC8A0A41BE564E0000C5C64 /* Main.storyboard */; };
+		BEC8A0A81BE564E0000C5C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC8A0A71BE564E0000C5C64 /* Assets.xcassets */; };
+		BEC8A0AB1BE564E0000C5C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC8A0A91BE564E0000C5C64 /* LaunchScreen.storyboard */; };
+		BEC8A0B61BE564E0000C5C64 /* Game_of_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8A0B51BE564E0000C5C64 /* Game_of_LifeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC8A0B21BE564E0000C5C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC8A0951BE564E0000C5C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC8A09C1BE564E0000C5C64;
+			remoteInfo = "Game of Life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEC8A09D1BE564E0000C5C64 /* Game of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC8A0A01BE564E0000C5C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEC8A0A21BE564E0000C5C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC8A0A51BE564E0000C5C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC8A0A71BE564E0000C5C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC8A0AA1BE564E0000C5C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC8A0AC1BE564E0000C5C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC8A0B11BE564E0000C5C64 /* Game of LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game of LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC8A0B51BE564E0000C5C64 /* Game_of_LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_LifeTests.swift; sourceTree = "<group>"; };
+		BEC8A0B71BE564E0000C5C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC8A09A1BE564E0000C5C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC8A0AE1BE564E0000C5C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC8A0941BE564E0000C5C64 = {
+			isa = PBXGroup;
+			children = (
+				BEC8A09F1BE564E0000C5C64 /* Game of Life */,
+				BEC8A0B41BE564E0000C5C64 /* Game of LifeTests */,
+				BEC8A09E1BE564E0000C5C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC8A09E1BE564E0000C5C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC8A09D1BE564E0000C5C64 /* Game of Life.app */,
+				BEC8A0B11BE564E0000C5C64 /* Game of LifeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC8A09F1BE564E0000C5C64 /* Game of Life */ = {
+			isa = PBXGroup;
+			children = (
+				BEC8A0A01BE564E0000C5C64 /* AppDelegate.swift */,
+				BEC8A0A21BE564E0000C5C64 /* ViewController.swift */,
+				BEC8A0A41BE564E0000C5C64 /* Main.storyboard */,
+				BEC8A0A71BE564E0000C5C64 /* Assets.xcassets */,
+				BEC8A0A91BE564E0000C5C64 /* LaunchScreen.storyboard */,
+				BEC8A0AC1BE564E0000C5C64 /* Info.plist */,
+			);
+			path = "Game of Life";
+			sourceTree = "<group>";
+		};
+		BEC8A0B41BE564E0000C5C64 /* Game of LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC8A0B51BE564E0000C5C64 /* Game_of_LifeTests.swift */,
+				BEC8A0B71BE564E0000C5C64 /* Info.plist */,
+			);
+			path = "Game of LifeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC8A09C1BE564E0000C5C64 /* Game of Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC8A0BA1BE564E0000C5C64 /* Build configuration list for PBXNativeTarget "Game of Life" */;
+			buildPhases = (
+				BEC8A0991BE564E0000C5C64 /* Sources */,
+				BEC8A09A1BE564E0000C5C64 /* Frameworks */,
+				BEC8A09B1BE564E0000C5C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game of Life";
+			productName = "Game of Life";
+			productReference = BEC8A09D1BE564E0000C5C64 /* Game of Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC8A0B01BE564E0000C5C64 /* Game of LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC8A0BD1BE564E0000C5C64 /* Build configuration list for PBXNativeTarget "Game of LifeTests" */;
+			buildPhases = (
+				BEC8A0AD1BE564E0000C5C64 /* Sources */,
+				BEC8A0AE1BE564E0000C5C64 /* Frameworks */,
+				BEC8A0AF1BE564E0000C5C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC8A0B31BE564E0000C5C64 /* PBXTargetDependency */,
+			);
+			name = "Game of LifeTests";
+			productName = "Game of LifeTests";
+			productReference = BEC8A0B11BE564E0000C5C64 /* Game of LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC8A0951BE564E0000C5C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Flat Cap";
+				TargetAttributes = {
+					BEC8A09C1BE564E0000C5C64 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BEC8A0B01BE564E0000C5C64 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BEC8A09C1BE564E0000C5C64;
+					};
+				};
+			};
+			buildConfigurationList = BEC8A0981BE564E0000C5C64 /* Build configuration list for PBXProject "Game of Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC8A0941BE564E0000C5C64;
+			productRefGroup = BEC8A09E1BE564E0000C5C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC8A09C1BE564E0000C5C64 /* Game of Life */,
+				BEC8A0B01BE564E0000C5C64 /* Game of LifeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC8A09B1BE564E0000C5C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC8A0AB1BE564E0000C5C64 /* LaunchScreen.storyboard in Resources */,
+				BEC8A0A81BE564E0000C5C64 /* Assets.xcassets in Resources */,
+				BEC8A0A61BE564E0000C5C64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC8A0AF1BE564E0000C5C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC8A0991BE564E0000C5C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC8A0A31BE564E0000C5C64 /* ViewController.swift in Sources */,
+				BEC8A0A11BE564E0000C5C64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC8A0AD1BE564E0000C5C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC8A0B61BE564E0000C5C64 /* Game_of_LifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC8A0B31BE564E0000C5C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC8A09C1BE564E0000C5C64 /* Game of Life */;
+			targetProxy = BEC8A0B21BE564E0000C5C64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEC8A0A41BE564E0000C5C64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC8A0A51BE564E0000C5C64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC8A0A91BE564E0000C5C64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC8A0AA1BE564E0000C5C64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC8A0B81BE564E0000C5C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC8A0B91BE564E0000C5C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC8A0BB1BE564E0000C5C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Game of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flatcap.Game-of-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEC8A0BC1BE564E0000C5C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Game of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flatcap.Game-of-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEC8A0BE1BE564E0000C5C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Game of LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flatcap.Game-of-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Life.app/Game of Life";
+			};
+			name = Debug;
+		};
+		BEC8A0BF1BE564E0000C5C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Game of LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flatcap.Game-of-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Life.app/Game of Life";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC8A0981BE564E0000C5C64 /* Build configuration list for PBXProject "Game of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC8A0B81BE564E0000C5C64 /* Debug */,
+				BEC8A0B91BE564E0000C5C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC8A0BA1BE564E0000C5C64 /* Build configuration list for PBXNativeTarget "Game of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC8A0BB1BE564E0000C5C64 /* Debug */,
+				BEC8A0BC1BE564E0000C5C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEC8A0BD1BE564E0000C5C64 /* Build configuration list for PBXNativeTarget "Game of LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC8A0BE1BE564E0000C5C64 /* Debug */,
+				BEC8A0BF1BE564E0000C5C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC8A0951BE564E0000C5C64 /* Project object */;
+}
