@@ -13,6 +13,7 @@
 		BEC8A0A81BE564E0000C5C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC8A0A71BE564E0000C5C64 /* Assets.xcassets */; };
 		BEC8A0AB1BE564E0000C5C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC8A0A91BE564E0000C5C64 /* LaunchScreen.storyboard */; };
 		BEC8A0B61BE564E0000C5C64 /* Game_of_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8A0B51BE564E0000C5C64 /* Game_of_LifeTests.swift */; };
+		BEC8A0C11BE5683E000C5C64 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8A0C01BE5683E000C5C64 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BEC8A0B11BE564E0000C5C64 /* Game of LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game of LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC8A0B51BE564E0000C5C64 /* Game_of_LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_LifeTests.swift; sourceTree = "<group>"; };
 		BEC8A0B71BE564E0000C5C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC8A0C01BE5683E000C5C64 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				BEC8A0A71BE564E0000C5C64 /* Assets.xcassets */,
 				BEC8A0A91BE564E0000C5C64 /* LaunchScreen.storyboard */,
 				BEC8A0AC1BE564E0000C5C64 /* Info.plist */,
+				BEC8A0C01BE5683E000C5C64 /* Cell.swift */,
 			);
 			path = "Game of Life";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				BEC8A0A31BE564E0000C5C64 /* ViewController.swift in Sources */,
 				BEC8A0A11BE564E0000C5C64 /* AppDelegate.swift in Sources */,
+				BEC8A0C11BE5683E000C5C64 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +392,7 @@
 				BEC8A0BC1BE564E0000C5C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEC8A0BD1BE564E0000C5C64 /* Build configuration list for PBXNativeTarget "Game of LifeTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				BEC8A0BF1BE564E0000C5C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
